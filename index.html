@@ -120,7 +120,7 @@ URL: http://roronoasazzed.com/
                     <h3><span class="cIcon"><i class="fa fa-child"></i></span> Mit Betreuungsplatz-Garantie</h3>
 
                     <div class="makeItFixed">
-                        <a class="btn btnMandy" id="mainButtonId"><span>Jetzt Kitaplatz sichern &nbsp &nbsp</span><i class="fa fa-shield"></i></a>
+                        <button class="btn btnMandy" id="mainButtonId"><span>Jetzt Kitaplatz sichern &nbsp &nbsp</span><i class="fa fa-shield"></i></button>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-12" id="yVideo">
@@ -506,12 +506,12 @@ URL: http://roronoasazzed.com/
                         left: '1%',
                         width: '90px',
                         opacity: 0.9
-                    }, 100);
+                    }, 150);
 
                     // $("#mainButtonId").html('<i class="fa fa-shield fa-2x"></i>');
-                    $("#mainButtonId span").hide(400);
-                    $("#mainButtonId").addClass("smallButton");
                     $("#mainButtonId i").addClass("iconStyle");
+                    $("#mainButtonId span").hide(550);
+                    // $("#mainButtonId").addClass("smallButton");
                     increased = false;
 
 
@@ -525,11 +525,11 @@ URL: http://roronoasazzed.com/
                             width: '240px',
                             opacity: 1
 
-                        }, 100);
-                        // $("#mainButtonId").html('<i class="fa fa-shield"></i>');
-                        $("#mainButtonId span").show(500);
-                        $("#mainButtonId").removeClass("smallButton");
+                        }, 150);
+                        // $("#mainButtonId").html('<span>abcdf</span><i class="fa fa-shield"></i>');
                         $("#mainButtonId i").removeClass("iconStyle");
+                        $("#mainButtonId span").show(350);
+                        // $("#mainButtonId").removeClass("smallButton");
                         increased = true;
 
                     }

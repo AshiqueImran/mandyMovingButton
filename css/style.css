@@ -147,21 +147,21 @@ p {
 }
 
 /* Navbar css ends */
-.smallButton{
+/*.smallButton{
     position: fixed;
     -webkit-transition: all 250ms;
     transition: all 250ms;
-    font-size: 100px;
-}
+}*/
 .makeItFixed{
     position: fixed;
     z-index: 100;
     width: 100%;
 }
 .iconStyle{
-    font-size:25px;
-    transition: transform 0.5s ease;
+    font-size:20px;
+    transition: font-size 0.100s ease;
 }
+
 .btnMandy {
     font-family: 'Roboto Condensed', sans-serif;
     background-color: #44639e;
